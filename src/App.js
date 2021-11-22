@@ -1,14 +1,7 @@
 import React from "react";
-import ExampleOne from "./components/ExampleOne";
-import ExampleTwo from "./components/ExampleTwo";
 
 const App = () => {
-  return (
-    <>
-      <ExampleOne initialCount={9} />
-      <ExampleTwo />
-    </>
-  );
+  return <h1>Bootcamp Fullstack Gratuito | midudev</h1>;
 };
 
 export default App;
