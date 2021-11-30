@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Notes from './components/Notes';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://bootcamp-notes-api.herokuapp.com/api/notes';
 
 const App = () => {
   const [notes, setNotes] = useState([]);
