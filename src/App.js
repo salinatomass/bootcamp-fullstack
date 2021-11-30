@@ -9,7 +9,9 @@ const App = () => {
   useEffect(() => {
     fetch(API_URL)
       .then(response => response.json())
-      .then(data => setNotes(data))
+      .then(data => {
+        setNotes(data);
+      })
       .catch(err => console.log(err));
   }, []);
 
